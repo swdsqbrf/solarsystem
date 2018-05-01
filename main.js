@@ -175,7 +175,7 @@ function _createSolarSystemMeshes(solarSystem) {
     solarSystem.earth = _createSolarSystemMesh("earthmap", "earthbump", earthRadius);
     solarSystem.earth.rotation.x = Math.PI / 2;
     solarSystem.moon = _createSolarSystemMesh("moonmap", "moonbump", (earthRadius * 0.27));
-    solarSystem.mercury = _createSolarSystemMesh("mercurymap", "mercurybump", (earthRadius * 0.4), "images/mercmap.jpg", "images/mercbump.jpg");
+    solarSystem.mercury = _createSolarSystemMesh("mercurymap", null, (earthRadius * 0.4));
     solarSystem.venus = _createSolarSystemMesh("venusmap", "venusbump", (earthRadius * 0.9));
     solarSystem.mars = _createSolarSystemMesh("marsmap", "marsbump", (earthRadius * 0.5));
     solarSystem.jupiter = _createSolarSystemMesh("jupitermap", null, (earthRadius * 11.2));
